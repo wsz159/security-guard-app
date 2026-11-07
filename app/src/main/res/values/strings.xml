@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">安全管家</string>
+    <string name="accessibility_service_description">用于识别当前前台应用，配合悬浮窗防护提示使用。不会读取其他应用的界面内容，也不会代替你进行任何点击操作。</string>
 </resources>
