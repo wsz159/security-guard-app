@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/shield_icon"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@android:drawable/ic_lock_idle_lock"
+        android:contentDescription="防护图标" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="防护已关闭"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="摇一摇手机，开启/关闭防护扫描"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <Button
+        android:id="@+id/btn_manual_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="手动开启防护" />
+
+    <Button
+        android:id="@+id/btn_app_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="应用管理 / 卸载" />
+
+    <TextView
+        android:id="@+id/shizuku_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Shizuku 状态：检测中..."
+        android:textSize="12sp"
+        android:textColor="#9E9E9E" />
+
+</LinearLayout>
